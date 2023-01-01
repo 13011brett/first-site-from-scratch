@@ -1,0 +1,30 @@
+body{
+    
+    flex-direction: row;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+img{
+    
+}
+
+
+.title-image{
+    max-width: 50%;
+    width:300px;
+}
+
+.card img{
+    max-width: 50%;
+    width:50px;
+}
