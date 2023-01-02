@@ -1,15 +1,54 @@
 body{
-    
-    flex-direction: row;
-}
-.content{
     display:flex;
+    margin: 0;
     flex-direction: column;
+    align-items:stretch;
+    
+
+    
 }
+
 .header{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border:1px solid red; 
+    gap:20px;
+    height:100px;
+    
+    
+    
+}
+.header,
+.title-container{
+    background-color: #1F2937;
+}
+
+
+a{
+    text-decoration: none;
+    color:lightseagreen;
+}
+.title-container{
+    display:flex;
+    flex-direction: column;
+    border:1px solid green;
+}
+.title-container div{
+    margin:10px;
+    flex:1;
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+    
+}
+.header-logo{
+    font-size:large;
+    margin-right:auto;
+}
+.header-logo a{
+    color:white;
 }
 
 
@@ -18,13 +57,65 @@ img{
     
 }
 
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
 
+
+.sub-title{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+button{             /*Button class*/
+    background-color: #3882F6;
+    border:none;
+    color:white;
+    width:10%;
+    border-radius: 10%;
+}
+
+
+.title-of-card{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+}
+
+.card{
+    font-size: 12px;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.quote-content{
+    background-color: #E5E7EB;
+}
 .title-image{
-    max-width: 50%;
-    width:300px;
+    display:flex;
+    align-self: flex-end;
+    flex-shrink: 0;
+    margin-top: auto;
+    max-width: 15%;
+    width:600px;
+    
+    
 }
 
 .card img{
     max-width: 50%;
     width:50px;
+}
+
+.modal{
+    background-color: #3882F6;
+    margin:20px;
+    
+    
+}
+.sign-up-button{
+    border:1px solid white;
+
 }
